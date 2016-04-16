@@ -1,0 +1,4 @@
+use last 11 month to train:
+The RMSE is  57.1362626282
+The MAPE is  0.545638300635
+
