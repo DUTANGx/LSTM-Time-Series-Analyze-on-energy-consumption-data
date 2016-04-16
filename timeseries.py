@@ -128,8 +128,10 @@ if __name__ == "__main__":
 	filedir = "./data/consumption_data winter.csv"
 	df = pd.read_csv(filedir)
 	active = df["active"]
-	#sub1 = df["Sub1"]
 	date = df["DateTime"]
+     # these 2 sentences works for trainning on 11 month data
+	#li1 = active[0:8020].tolist()  
+	#li2 = active[8020:].tolist()    
 	li1 = active[0:4032].tolist()
 	li2 = active[4032:].tolist()
 	print(li2)    
